@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="/css/utill.css">
+        <link rel="stylesheet" href="/css/dashboard.css">
+    </head>
+    <body>
+         {{>header}}
+         <div class="main-div">
+             <div class="dashboard-main">
+                 <div class="dashboard-form-main">
+                    <form id="new-task-form" name="new-task-form">
+                        <h1 id="create-task-heading">Create Task here</h1>
+                        <input type="text" class="input" id="new-task" name="new-task" required>
+                        <div class="btn btn-create-task" id="create-task-btn">Create Task</div>
+                        <span id="new-task-error"></span>
+                        <span id="new-task-success"></span>
+                    </form>
+                 </div>
+             </div>
+         </div>
+    </body>
+    <script src="./scripts/dashboard.js"></script>
+</html>

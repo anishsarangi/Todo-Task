@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="/css/utill.css">
+        <link rel="stylesheet" href="/css/tasks.css">
+    </head>
+    <body>
+        {{>header}}
+        <div class="main-div">
+            <div class="tasks-main">
+                <div class="tasks-main-content">
+                {{#each tasks}}
+                    <div class="row">{{this.description}}</div>
+                {{/each}}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

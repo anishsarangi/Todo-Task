@@ -1,0 +1,14 @@
+<header>
+    <ul>
+        <li><a class="active" href="/"> HOME </a></li>
+        <li><a href="/tasks"> Read TASKS</a></li>
+        <li id="temp-cross"><a> ABOUT-ME </a></li>
+        {{#if login}}
+            <li class="loginsignup" id="logout-header"><a href="/logout"> LOGOUT </a></li>
+            <li class="loginsignup" id="myprofile"><a> Hi!{{name}} </a></li>
+        {{else}}
+            <li class="loginsignup" id="signup-header"><a> SIGNUP </a></li>
+            <li class="loginsignup" id="login-header"><a> LOGIN </a></li>
+        {{/if}}
+    </ul>
+</header>

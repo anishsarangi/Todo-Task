@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/css/utill.css">
+        <link rel="stylesheet" href="/css/index.css">
+    </head>
+    <body>
+        {{>header}}
+        <div class="main-div">
+            <div class="modal-form">
+                <div class="login">Log In</div>
+                <div class="signup">Sign Up</div>
+
+                <div class="login-form">
+                    <form class="form" name="login-form">
+                        <input type="text" placeholder="Email-id" class="input" id="login-email" name="login-email" required><br>
+                        <input type="password" placeholder="Password" class="input" id="login-password" name="login-password" required><br>
+                        <div class="btn btn-login" id="login-btn">Log In</div>
+                        <span id="login-error"></span>
+                        <span id="login-success"></span>
+                    </form>
+                </div>
+
+                <div class="signup-form">
+                    <form class="form" name="signup-form">
+                        <input type="text" placeholder="User Name" class="input" id="user-name" name="user-name" required><br>
+                        <input type="text" placeholder="Email-id" class="input" id="signup-email" name="signup-email" required><br>
+                        <input type="password" placeholder="Password" class="input" id="signup-password" name="signup-password" required><br>
+                        <input type="password" placeholder="Re-enter Password" class="input" id="signup-reenterpassword" name="signup-reenterpassword" required><br>
+                        <div class="btn btn-signup" id="signup-btn">Create Account</div>
+                        <span id="signup-error"></span>
+                        <span id="signup-success"></span>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="/scripts/index.js"></script>
+</html>

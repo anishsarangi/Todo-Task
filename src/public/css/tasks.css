@@ -1,0 +1,13 @@
+.tasks-main{
+    width: 450px;
+    margin: 70px auto;
+}
+.tasks-main-content{
+    background: white;
+    box-sizing: border-box;
+    padding: 40px;
+    clear: both;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
