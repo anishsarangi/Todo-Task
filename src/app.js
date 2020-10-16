@@ -31,7 +31,7 @@ app.use(taskRouter);
 
 const PORT = process.env.PORT || 9000;
 
-
+//app listen to the port
 app.listen(PORT, (req, res) => {
     console.log("The app is running on PORT "+ PORT);
 })
